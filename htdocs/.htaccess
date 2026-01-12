@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ /index.php [NC,L]
+
+AddDefaultCharset utf-8
